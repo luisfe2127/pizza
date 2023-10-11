@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* .....CABEÇALHO..... */ 
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+header {
+    background-color: rgb(253, 72, 66);
+    
+}
+
+header > img {
+    height: 45vh; 
+}
+
+
+
+
