@@ -10,13 +10,44 @@
 
 
 header {
-    background-color: rgb(253, 72, 66);
+    background-color: rgb(253, 72, 66); 
+    background-image: url('/imagens/pexels-brett-jordan-842519.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 340px;
+
+}
+
+/* .....MENU.....*/
+
+nav {
+    text-align: center;
+}
+
+a {
+    transition: 1s;
+    display: inline-block;
+    word-break: 90px;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 90px;
+    text-decoration: none;
+    margin-top: 20px;
     
 }
 
-header > img {
-    height: 45vh; 
+a:hover {
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 255, 255); 
 }
+
+
 
 
 
