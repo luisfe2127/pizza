@@ -28,7 +28,7 @@ nav {
     text-align: center;
 }
 
-a {
+nav > a {
     transition: 1s;
     display: inline-block;
     word-break: 90px;
@@ -41,7 +41,7 @@ a {
     border-radius: 20px;
 }
 
-a:hover {
+nav > a:hover {
     font-size: 25px;
     border: 2px solid black;
     border-radius: 20px;
@@ -99,10 +99,16 @@ a:hover {
 
  }
 
- #cardapios > img {
+ #cardapios > a > img {
     width: 40vw;
     border-radius: 10px;
     margin-left: 20px;
+    transition: 1s;
+ }
+
+ #cardapios > a > img:hover {
+    width: 42vw;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.664);
  }
 
 
