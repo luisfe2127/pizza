@@ -1,0 +1,16 @@
+@charset "UTD-8";
+
+body {
+    text-align: center;
+    background-color: rgb(241, 193, 104);
+}
+
+header {
+    font-size: 30px;
+}
+
+#login {
+    background-color: white;
+   
+}
+

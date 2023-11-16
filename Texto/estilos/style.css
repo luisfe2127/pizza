@@ -109,11 +109,10 @@ nav > a:hover {
  #cardapios > a > img:hover {
     width: 42vw;
     box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.664);
+    border-left: 50vw;
  }
 
- #cardapios > a > img:hover {
-    
- }
+
 
 
 
